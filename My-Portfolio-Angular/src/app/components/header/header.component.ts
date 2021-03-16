@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ResumeDataService } from '../../services/resume-data.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  resumeData: any;
+
+  constructor(private resumeDataServise: ResumeDataService) { }
 
   ngOnInit(): void {
+    this.getResumeData()
   }
 
+  getResumeData(): void {
+    this.resumeDataServise.getResumeData()
+    .subscribe(resumeData => this.resumeData = resumeData);
+  }
 }
