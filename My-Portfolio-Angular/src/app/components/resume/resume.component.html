@@ -1,0 +1,47 @@
+<section id = "resume">
+    <div class = "row education">
+        <div class = "three columns header-col">
+            <h1><span>Education</span></h1>
+        </div>
+        <div class = "nine columns main-col">
+            <div class = "row item">
+                <div class = "twelve columns" 
+                *ngFor = "let education of resumeData.resume.education">
+                    <div><h3>{{education.school}}</h3>
+                    <p class = "info">{{education.degree}} <span>&bull;</span><em class = "date">{{education.graduated}}</em></p>
+                    <p>{{education.description}}</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "row work">
+        <div class = "three columns header-col">
+            <h1><span>Work</span></h1>
+        </div>
+        <div class = "nine columns main-col"
+        *ngFor = "let work of resumeData.resume.work">
+            <div><h3>{{work.company}}</h3>
+                <p className="info">{{work.title}}<span>&bull;</span> <em className="date">{{work.years}} years</em></p>
+                <p>{{work.description}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class = "row skill">
+        <div class = "three columns header-col">
+            <h1><span>Skills</span></h1>
+        </div>
+        <div class = "nine columns main-col">
+            <div class = "bars">
+                <ul class = "skills" 
+                *ngFor = "let skill of resumeData.resume.skills">
+                    <li>
+                        <em>{{skill.name}}</em>
+                        <span [style.width] = "skill.level" class="bar-expand"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
