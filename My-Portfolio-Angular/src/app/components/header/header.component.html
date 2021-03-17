@@ -19,7 +19,7 @@
     <div class = "row banner">
        <div class = "banner-text">
             <h1 class = "responsive-headline">I'm {{resumeData.main.name}}.</h1>
-            <h2>I'm a {{resumeData.main.occupation}} based in {{resumeData.main.city}}.</h2>
+            <h2>I'm a {{resumeData.main.occupation}} based in {{resumeData.main.address.city}}.</h2>
             <hr />
             <ul class = "social">
                 <li  *ngFor="let network of resumeData.main.social">
