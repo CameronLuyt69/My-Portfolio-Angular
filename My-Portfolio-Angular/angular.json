@@ -31,7 +31,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
+              "src/styles.css",
               "src/assets/css/fonts.css",
               "src/assets/css/default.css",
               "src/assets/css/magnific-popup.css",

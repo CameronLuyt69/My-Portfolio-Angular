@@ -1,0 +1,32 @@
+<section id="portfolio">
+    <div class="row">
+        <div class="twelve columns collapsed">
+            <h1>Check Out My Projects</h1>
+
+            <div id="portfolio-wrapper" class="cf" *ngFor="let project of resumeData.portfolio.projects">
+                <div class="columns portfolio-item" (click)="displayOverlay()">
+                    <div class="item-wrap">
+                        <img class="project-pic" alt={{project.title}} src="{{project.image}}" />
+                        <div #overlay class="overlay">
+                            <div class="portfolio-item-meta">
+                                <h3>{{project.title}}</h3>
+                                <p>{{project.category}}</p>
+                                <div class="meta-buttons">
+                                    <a href={{project.url}} title={{project.title}} target="_blank"
+                                        rel="noopener noreferrer">
+                                        <button name="code" class="view-code-btn">View Code</button>
+                                    </a>
+                                    
+                                    <a href={{project.demo}} title={{project.title}} target="_blank"
+                                        rel="noopener noreferrer">
+                                        <button name="demo" class="view-demo-btn">View Demo</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

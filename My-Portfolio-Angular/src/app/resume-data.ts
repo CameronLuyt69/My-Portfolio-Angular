@@ -100,46 +100,40 @@ export const RESUMEDATA: any = {
         {
           "title": "User Profile System",
           "category": "A site that stores user information in the form of card panels and models. Users are removable. This project was built with HTML, CSS and Bootstrap.",
-          "image": "4 WORK.png",
+          "image": "https://i.ibb.co/TcxbsrG/4-WORK.png",
           "url": "https://github.com/CameronLuyt69/Assignments/tree/master/WebDesignEndOfModuleProject"
         },
         {
           "title": "IT-Logger",
           "category": "A site that stores technicians along with tasks they're required to complete and tasks they've completed. This project was created using HTML, CSS, React and more",
-          "image": "2 WORK.png",
+          "image": "https://i.ibb.co/5RR2NqX/2-WORK.png",
           "url": "https://github.com/CameronLuyt69/Assignments/tree/master/it-logger"
         },
         {
           "title": "GitHub Finder",
           "category": "A site that fetches GitHub user information. The site displays information such as user profile picture, followers and following, number of repos and gists, a link to the users profile and more. This project was built using HTML, CSS, React and more",
-          "image": "1 WORK.png",
+          "image": "https://i.ibb.co/Kbb4MSC/1-WORK.png",
           "url": "https://github.com/CameronLuyt69/GitHub-Finder",
           "demo": "https://github-finder-cl-69.netlify.app/"
         },
         {
           "title": "Contact-Keeper",
           "category": "A site that allows users to create personal/professional accounts. With these accounts users are able to store and manage contacts. This project was built with HTML, CSS, React, MongoDB and more",
-          "image": "3 WORK.png",
-          "url": "https://github.com/CameronLuyt69/Contact-Keeper",
-          "demo": "https://contact-keeper-cl.herokuapp.com/"
-        },
-        {
-          "title": "Contact-Keeper",
-          "image": "3WORK.png",
+          "image": "https://i.ibb.co/VxgzvP4/3WORK.png",
           "url": "https://github.com/CameronLuyt69/Contact-Keeper",
           "demo": "https://contact-keeper-cl.herokuapp.com/"
         },
         {
           "title": "AZ-TECH",
           "category": "A site that enables users to shop online for items tech related. This site includes features such as a user login system, inventory management, order management, shopping cart system, reviews and more. This project was built using HTML, CSS, React, MongoDB and more",
-          "image": "6 WORK.png",
+          "image": "https://i.ibb.co/XDW8dGy/6-WORK.png",
           "url": "https://github.com/CameronLuyt69/AZ-TECH",
           "demo": "https://az-tech.herokuapp.com/"
         },
         {
           "title": "Cameron Jude Luyt",
           "category": "A site the displays my professional information. This site also includes examples of past projects aswell as a downloadable CV. This project was built with HTML, CSS, React and more",
-          "image": "5 WORK.png",
+          "image": "https://i.ibb.co/VQ6S6t3/5-WORK.png",
           "url": "https://github.com/CameronLuyt69/My-Portfolio",
           "demo": "https://cameronluyt69.github.io/My-Portfolio/"
         }
