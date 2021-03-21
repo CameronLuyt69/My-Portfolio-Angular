@@ -1,0 +1,16 @@
+<footer>
+    <div class="row">
+        <div class="twelve columns">
+
+            <ul class="social-links" *ngFor="let network of resumeData.main.social">
+                <li><a href={{network.url}} target="_black"><i class={{network.className}}></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+                <li>&copy; Copyright 2020 Cameron Jude Luyt</li>
+            </ul>
+
+        </div>
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="fas fa-arrow-up"></i></a></div>
+    </div>
+</footer>
