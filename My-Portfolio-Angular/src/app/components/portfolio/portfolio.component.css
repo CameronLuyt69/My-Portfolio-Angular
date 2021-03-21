@@ -13,6 +13,9 @@
 }
 
 /* Portfolio Content */
+#portfolio-wrapper {
+  border-radius: 25px;
+}
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
 }
@@ -58,6 +61,7 @@
   transition: opacity 0.3s ease-in-out;
 
   background: url('../../../assets/images/overlay-bg.png') repeat;
+  background-color: black;
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;
